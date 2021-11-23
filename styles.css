@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    height: 48px;
+}
+
+.dark-background {
+    background-color: #1F2937;
+    color: white;
+}
+
+.item {
+    flex: 1;
+    text-align: center;
+    align-self: center;
+    font-size: 24px;
+}
+
+.container .one {
+    flex: 3 1 0%;
+    align-self: center;
+    font-size: 24px;
+}
+
+.tall {
+    height: 280px;
+    padding: 100px;
+}
+
+.flex-one {
+    flex: 1;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.top-level-margin {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.top-level-padding {
+    padding-left: 100px;
+    padding-right: 100px;
+}
