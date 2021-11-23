@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+}
+
+.header-box {
+    padding-top: 20px;
+}
+
 .container {
     display: flex;
     height: 48px;
@@ -8,9 +16,9 @@
     color: white;
 }
 
-.item {
+.header_item {
     flex: 1;
-    text-align: center;
+    text-align: right;
     align-self: center;
     font-size: 24px;
 }
@@ -23,23 +31,120 @@
 
 .tall {
     height: 280px;
-    padding: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 40px;
 }
 
 .flex-one {
     flex: 1;
+    height: 100%;
 }
 
 .flex-col {
     flex-direction: column;
+    justify-content: center;
 }
 
-.top-level-margin {
-    margin-left: 100px;
-    margin-right: 100px;
+.margin {
+    margin: 8px;
 }
 
 .top-level-padding {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.button-color {
+    background-color: #3882F6;
+}
+
+.placeholder-image {
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    height: 100%;
+    justify-content: center;
+}
+
+.placeholder-text{
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.signup-box {
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.info-tagline {
+    text-align: center;
+    font-size: 36px;
+    font-style: extra-bold;
+    color: #1F2937;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin: 0;
+}
+
+.border-boxes {
+    border: 4px solid #3882F6;
+    border-width: 4px;
+    display: flex;
+    height: 180px;
+    width: 180px;
+    margin: 8px 0 8px 0;
+}
+
+.white-bg .container {
+    height: 100%;
+    justify-content: center;
+    gap: 40px;
+}
+
+.border-box-subtexts {
+    text-align: center;
+    width: 188px;
+    color: #1F2937;
+    padding-bottom: 80px;
+}
+
+.grey-bg {
+    background-color: #E5E7EB;
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    justify-content: center;
+}
+
+.testimonial {
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+    text-align: left;
+    align-self: center;
+}
+
+.citation {
+    font-size: 30px;
+    font-style: normal;
+    color: #1f2937;
+    text-align: right;
+    width: 770px;
 }
